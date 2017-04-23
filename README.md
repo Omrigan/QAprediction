@@ -1,5 +1,5 @@
-# Using Deep Structured Semantic Model for question answering
-In http://dl.acm.org/citation.cfm?id=2505665 DSSM was proposed. General idea is findng a deep vector representation for objects. In my work I try to adapt this idea for Russian langague question&answering problems. LSTM and triplet loss are being combined for learning those deep vector representations and finding the nearset answer for given question with respect to given metrics (euclidean in my case).
+# DSSM for Russian-language question answering problem. 
+In http://dl.acm.org/citation.cfm?id=2505665 Deep Structured Semantic Model was proposed. General idea is findng a deep vector representation for logically binded objects.  In my work I try to adapt this idea for Russian-language question&answering problem. LSTM and triplet loss are being combined for learning two separate mappings for questions and answers and then finding the nearset answer for given question with respect to given metric (euclidean in this case).
 
 
 

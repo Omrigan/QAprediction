@@ -1,7 +1,8 @@
-# DSSM for Russian-language question answering problem. 
-In http://dl.acm.org/citation.cfm?id=2505665 Deep Structured Semantic Model was proposed. General idea is findng a deep vector representation for logically binded objects.  In my work I try to adapt this idea for Russian-language question&answering problem. LSTM and triplet loss are being combined for learning two separate mappings for questions and answers and then finding the nearset answer for given question with respect to given metric (euclidean in this case).
+# Unified sentence embedding \\ for question answering
 
+[Poster](https://github.com/Omrigan/QAprediction/blob/master/unified-sentence-embedding.pdf)
 
+In [this paper](http://dl.acm.org/citation.cfm?id=2505665) Deep Structured Semantic Model was proposed. General idea is finding a deep vector representation for logically binded objects.  In my work I try to adapt this idea for Russian-language question&answering problem. LSTM and triplet loss are being combined for learning two separate mappings for questions and answers and then finding the nearest answer for given question with respect to given metric (euclidean in this case).
 
 ## Futher exploration
 
